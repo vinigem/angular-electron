@@ -5,8 +5,9 @@ let win;
 function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 600, 
+    width: 400, 
     height: 600,
+    resizable: false,
     backgroundColor: '#ffffff',
     icon: `file://${__dirname}/dist/angular-electron/assets/logo.png`
   })
